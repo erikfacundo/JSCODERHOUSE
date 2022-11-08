@@ -1,5 +1,6 @@
 let presupuesto
-
+let aumento
+let precio
 
 // Clase persona para ingresar cliente
 class Personas {
@@ -152,13 +153,14 @@ if (auto == "chico" || auto == "hatchback" || auto == "sedan" || auto == "suv" |
 
     }
 
-    //presupuesto.push({auto, tratamiento})
-    //console.log(presupuesto)
 }else{
     alert("no coincide")
 }
 
 function presupuestoFinal() {
-	presupuesto = alert(precio * aumento);
+    presupuesto = alert(precio * aumento);
+    console.log(presupuesto)
 }
+//presupuesto.push({auto, tratamiento})
 presupuestoFinal();
+
