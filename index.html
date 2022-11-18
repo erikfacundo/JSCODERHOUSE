@@ -1,12 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
-    <script src="/js/index.js"></script>
+    <h2 id="welcome"></h2>
+    <div id="contenedor">
+        <h3>Seleccione un vehiculo</h3>
+        <form id="presupuesto">
+            <br>
+            <label for="vehiculo">Seleccione el tamaño del vehiculo</label>
+            <br>
+            <p id="tamanosDisponible"></p>
+            <br>
+            <input type="text" name="selectvehiculo" id="selectVehiculo">
+
+            <br>
+            <label for="tratamiento">Seleccione el tratamiento que quiere realizar</label>
+            <br>
+            <p id="tratDisponible"></p>
+            <br>
+            <input type="text" name="selectrat" id="selecTrat">
+            <br>
+
+            <button type="submit" id="presupuesto1">REALIZAR PRESUPUESTO</button>
+
+
+        </form>
+
+    </div>
+
+
+    <script src="./js/index.js"></script>
 </body>
+
 </html>
